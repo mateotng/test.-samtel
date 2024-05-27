@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wordpress-config
+data:
+  WORDPRESS_DB_HOST: "localhost" # Modificar si es necesario
+  WORDPRESS_DB_HOST_PORT: "3306" # Modificar si es necesario
+  WORDPRESS_DB_USER: wordpress"
+  WORDPRESS_DB_PASSWORD: "wordpress"
+  WORDPRESS_DB_NAME: "wordpress"
